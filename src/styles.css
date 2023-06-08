@@ -1,0 +1,33 @@
+#head {
+  background: black;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  position: absolute;
+}
+
+body {
+
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items:center;
+
+
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 1px black solid;
+  position: relative;
+
+}
+
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
