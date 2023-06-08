@@ -18,8 +18,8 @@ body {
 }
 
 #board {
-  height: 700px;
-  width: 700px;
+  height: 600px;
+  width: 600px;
   border: 1px black solid;
   position: relative;
 

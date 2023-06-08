@@ -14,7 +14,6 @@
 
 // jump scare
  
-
 document.addEventListener('DOMContentLoaded', () => {
   const body = document.querySelector('body');
   const board = document.querySelector('#board');

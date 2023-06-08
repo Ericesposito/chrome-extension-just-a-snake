@@ -8,8 +8,8 @@ class Apple{
 
     // When game resets, maybe removeChild and re-appendChild? 
     
-    let leftNum =  Math.floor(14 * Math.random())*50;
-    let topNum =  Math.floor(14 * Math.random())*50;
+    let leftNum =  Math.floor(12 * Math.random())*50;
+    let topNum =  Math.floor(12 * Math.random())*50;
 
     this.node.style.left = leftNum.toString() + 'px';
     this.node.style.top = topNum.toString() + 'px';

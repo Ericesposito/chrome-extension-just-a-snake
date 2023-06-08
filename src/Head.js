@@ -8,8 +8,8 @@ class Head {
     this.currentDirection = null;
     this.SPEED =350;
 
-    this.node.style.top = '350px';
-    this.node.style.left = '350px';
+    this.node.style.top = '300px';
+    this.node.style.left = '300px';
 
     // Refactor the below line to create a bound version of `this.Move`.
     // We must do this in order to retain the context of `this` in an asynchronous setTimeout call
@@ -44,7 +44,7 @@ class Head {
 
 
     
-    if (leftPosition < 0 || leftPosition + 100 > 750 || topPosition < 0 || topPosition + 100 > 750) {
+    if (leftPosition < 0 || leftPosition + 100 > 650 || topPosition < 0 || topPosition + 100 > 650) {
       return alert('GAME OVER');
     }
     // const moveTimeout = setTimeout(() => this.boundMove(), this.SPEED);
