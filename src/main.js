@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (keyCount === 25) {
       const castleSound = new Audio('src/sounds/spooky-castle.mp3');
-      castleSound.volume = 0.7;
+      castleSound.volume = 0.5;
       castleSound.play();
     }
     
